@@ -55,6 +55,10 @@ public class Remedio {
 		if (dados.nome() != null) {
 			this.nome = dados.nome();
 		}
+
+		if (dados.quantidade() >= 0) {
+			this.quantidade = dados.quantidade();
+		}
 		
 		if (dados.via() != null) {
 			this.via = dados.via();

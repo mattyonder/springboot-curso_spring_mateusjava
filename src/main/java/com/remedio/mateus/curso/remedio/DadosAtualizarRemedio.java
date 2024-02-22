@@ -7,6 +7,7 @@ public record DadosAtualizarRemedio(
 		Long id,
 		String nome,
 		Via via,
+		int quantidade,
 		Laboratorio laboratorio) {
 
 }
